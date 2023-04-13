@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background-color: #c0e4fc;
+}
+
+.card {
+  width: 330px;
+  min-height: 400px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 70px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 20px rgb(0, 0, 0, 0.24);
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  background-size: 100% 150px;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 0.1px;
+}
+
+.card_persona {
+  background-image: url(img.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  margin-top: 105px;
+  border-radius: 50%;
+  border: 7px solid #fff;
+}
+
+.card_name {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.card_media {
+  margin-top: 40px;
+  width: 100%;
+  height: 90px;
+  border-top: 1px solid #b3a2a2;
+  display: flex;
+  justify-content: center;
+}
+
+.card_icon {
+  width: 25%;
+  height: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
+
+.card_icon--facebook {
+  background-image: url("icons/facebook.svg");
+}
+
+.card_icon--twitter {
+  background-image: url("icons/twitter.svg");
+}
+
+.card_icon--youtube {
+  background-image: url("icons/youtube.svg");
+}

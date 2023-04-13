@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #320da8;
+}
+
+.card {
+  background-color: #fff;
+  width: 400px;
+  margin: 30px;
+}
+
+.card_text {
+  padding: 30px 20px;
+}
+
+.card_img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card_title {
+  color: red;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.card_paraf {
+  line-height: 1.7;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.card_cta {
+  display: inline-block;
+  background-color: #320da8;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 30px;
+  font-weight: 300;
+}
